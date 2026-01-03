@@ -8,7 +8,7 @@ import RecentOrders from '../components/home/RecentOrders';
 
 const Home = () => {
   return (
-    <section className="bg-[#1f1f1f] h-[calc(65vw-10.5rem)] overflow-hidden flex gap-3">
+    <section className="bg-[#1f1f1f] h-[calc(100vh-5.5rem)] overflow-hidden flex gap-3">
         {/* left content */}
         <div className='flex-[3] bg- red-700'>
             <Greetings />
