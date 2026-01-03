@@ -5,10 +5,11 @@ import { GrInProgress } from "react-icons/gr";
 import Greetings from '../components/home/Greetings';
 import MiniCard from '../components/home/MiniCard';
 import RecentOrders from '../components/home/RecentOrders';
+import PopurlarDishes from '../components/home/PopurlarDishes';
 
 const Home = () => {
   return (
-    <section className="bg-[#1f1f1f] h-[calc(100vh-5.5rem)] overflow-hidden flex gap-3">
+    <section className="bg-[#1f1f1f] h-[calc(100vh-7.7rem)] overflow-hidden flex gap-3">
         {/* left content */}
         <div className='flex-[3] bg- red-700'>
             <Greetings />
@@ -20,7 +21,8 @@ const Home = () => {
         </div>
 
         {/* right content */}
-        <div className="flex-[2] bg-blue-700">
+        <div className="flex-[2] ">
+          <PopurlarDishes />
         </div>
         <BottomNav />
     </section>

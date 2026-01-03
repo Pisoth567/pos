@@ -1,4 +1,4 @@
-import ice_latte from '../assets/images/ice-americano.jpg';
+import ice_latte from '../assets/images/ice-latte.avif';
 import cocktail from '../assets/images/cocktail.webp';
 import ice_americano from '../assets/images/ice-americano.jpg';
 import kafe_dosko from "../assets/images/kafe-dos-ko.jpg";
