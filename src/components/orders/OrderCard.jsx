@@ -4,7 +4,7 @@ import { FaCircle } from "react-icons/fa6";
 
 const OrderCard = () => {
   return (
-    <div className="w-[450px] bg-[#2b2b2b] p-5 rounded-xl text-white">
+    <div className="w-[500px] bg-[#2b2b2b] p-5 rounded-xl text-white">
 
       {/* Top section */}
       <div className="flex items-start justify-between">

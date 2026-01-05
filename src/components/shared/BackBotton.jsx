@@ -4,9 +4,9 @@ import { useNavigate } from 'react-router-dom';
 const BackBotton = () => {
   const navigate = useNavigate();
   return (
-    <botton onClick={() => navigate(-1)} className="bg-[#f6b100] p-3 text-xl rounded-md">
+    <button onClick={() => navigate(-1)} className="bg-[#f6b100] p-3 text-xl rounded-md cursor-pointer">
         <IoMdArrowRoundBack />
-    </botton>
+    </button>
   )
 }
 

@@ -9,8 +9,8 @@ const Header = () => {
     <header className='flex justify-between items-center  px-8 bg-[#1a1a1a]'>
         {/* logo */}
         <div className='flex items-center gap-2'>
-            <img src={logo} className='h-[120px] my-shadow' alt="" />
-            <h1 className='text-lg font-semibold text-[#f5f5f5]'>CoMi</h1>
+            <img src={logo} className='h-[100px] my-shadow' alt="" />
+            <h1 className='text-3xl font-semibold text-[#f5f5f5]'>COMO</h1>
         </div>
 
         {/* search */}
@@ -25,11 +25,11 @@ const Header = () => {
                 <FaBell className='text-[#f5f5f5] text-2xl'/>
             </div>
             <div className='flex items-center gap-3 cursor-pointer'>
-                <FaUserCircle className='text-[#f5f5f5] text-3xl'/>
+                <FaUserCircle className='text-[#f5f5f5] text-4xl'/>
             </div>
             <div className='flex flex-col items-start'>
-                <h1 className='text-md text-[#f5f5f5] font-semibold'>Pisoth</h1>
-                <p className='text-xs text-[#ababab] font-medium'>Admin</p>
+                <h1 className='text-2xl text-[#f5f5f5] font-semibold'>Pisoth</h1>
+                <p className='text-lg text-[#ababab] font-medium'>Admin</p>
             </div>
         </div>
     </header>
