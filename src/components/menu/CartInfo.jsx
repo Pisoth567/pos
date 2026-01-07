@@ -24,7 +24,7 @@ const CartInfo = () => {
   };
 
   return (
-    <div className="bg-[#1a1a1a] mt-4  mr-3 h-[670px] rounded-lg pt-2 flex flex-col">
+    <div className="bg-[#1a1a1a] mt-4  mr-3 h-[820px] rounded-lg pt-2 flex flex-col">
       <CustomerInfo />
 
       {/* Order Details */}

@@ -36,10 +36,10 @@ const Bill = () => {
             </div>
             
             <div className="flex gap-2">
-                <button className="flex-1  text-white font-bold py-3 rounded-lg bg-blue-600">
+                <button className="flex-1 mb-3 mt-3 text-white font-bold py-3 rounded-lg bg-blue-600">
                     Print Receipt
                 </button>
-                <button className="flex-1 bg-[#f6b100] text-[#1a1a1a] font-bold py-3 rounded-lg hover:bg-yellow-600">
+                <button className="flex-1 mb-3 mt-3 bg-[#f6b100] text-[#1a1a1a] font-bold py-3 rounded-lg hover:bg-yellow-600">
                     Please Order
                 </button>
             </div>

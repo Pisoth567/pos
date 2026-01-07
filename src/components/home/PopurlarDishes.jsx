@@ -12,7 +12,7 @@ const PopurlarDishes = () => {
         </div>
 
 
-        <div className='overflow-y-scroll h-[700px]'>
+        <div className='overflow-y-scroll h-[680px]'>
             {
                 popurlarDishes.map((dish)=> {
                     return (
